@@ -1,7 +1,3 @@
-/* 
-font-family: 'Gilda Display', serif;
-font-family: 'Montserrat', sans-serif;
- */
 .container {
   width: 100%;
   max-width: 1140px;
@@ -209,23 +205,6 @@ font-family: 'Montserrat', sans-serif;
   align-items: center;
 }
 
-.our-services__slider {
-  max-width: 458px;
-  overflow: hidden;
-}
-
-.our-services__slider-line {
-  display: flex;
-  width: 1377px;
-  position: relative;
-  left: 0;
-  transition: all 1s ease;
-}
-
-.slider-box {
-  max-width: 458px;
-}
-
 .slider-box__title {
   font-family: "Gilda Display", serif;
   font-style: normal;
@@ -311,56 +290,6 @@ font-family: 'Montserrat', sans-serif;
   display: flex;
   flex-direction: column;
   align-items: center;
-}
-
-.button-box {
-  display: flex;
-  justify-content: center;
-  margin-top: 20px;
-}
-
-.portfolio__slider {
-  max-width: 360px;
-  overflow: hidden;
-}
-
-.slider-line {
-  display: flex;
-  width: 1080px;
-  position: relative;
-  left: 0;
-  transition: all 1s ease;
-}
-
-.services-button,
-.portfolio-button {
-  font-family: "Montserrat", sans-serif;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 30px;
-  line-height: 115%;
-  color: #ffffff;
-  width: 100px;
-  height: 33px;
-  background-color: transparent;
-  outline: none;
-  border: 1px solid #bb997d;
-  cursor: pointer;
-}
-
-.services-button:not(:last-child),
-.portfolio-button:not(:last-child) {
-  margin-right: 20px;
-}
-
-.services-button:hover,
-.portfolio-button:hover {
-  background: linear-gradient(241.37deg, #dfd3c5 0.86%, #bb997d 46.82%, #9d7763 100%);
-}
-
-.services-button:active,
-.portfolio-button:active {
-  background: linear-gradient(241.37deg, #9d7763 0.86%, #bb997d 46.82%, #dfd3c5 100%);
 }
 
 /* Contact us */

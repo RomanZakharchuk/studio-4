@@ -10,6 +10,8 @@
   <link rel="stylesheet" href="./style/style.css">
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Gilda+Display&family=Montserrat&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="src/scss/owl.carousel.css">
+  <link rel="stylesheet" href="src/scss/owl.theme.default.css">
 </head>
 
 <body>
@@ -98,51 +100,43 @@
       <div class="container our-services-container">
 
         <h2 class="our-services__title">our services</h2>
+        <div class="owl-carousel">
 
-        <div class="our-services__slider">
-          <div class="our-services__slider-line">
+          <div class="slider-box">
+            <img src="./image/Rectangle15.jpg" alt="image">
+            <h3 class="slider-box__title">interior design</h3>
+            <svg width="80" height="8" viewBox="0 0 80 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <rect y="3" width="75" height="2" fill="#C89469" />
+              <ellipse cx="76" cy="4" rx="4" ry="4" fill="#DFD3C5" />
+            </svg>
+            <p class="slider-box__text">Moving beyond just the design and aesthetics, Studio 4 Designs brings
+              architecture, engineering and interior design together to create luxury living experiences.</p>
+          </div>
 
-            <div class="slider-box">
-              <img src="./image/Rectangle15.jpg" alt="image">
-              <h3 class="slider-box__title">interior design</h3>
-              <svg width="80" height="8" viewBox="0 0 80 8" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <rect y="3" width="75" height="2" fill="#C89469" />
-                <ellipse cx="76" cy="4" rx="4" ry="4" fill="#DFD3C5" />
-              </svg>
-              <p class="slider-box__text">Moving beyond just the design and aesthetics, Studio 4 Designs brings
-                architecture, engineering and interior design together to create luxury living experiences.</p>
-            </div>
+          <div class="slider-box">
+            <img src="./image/Rectangle14.jpg" alt="image">
+            <h3 class="slider-box__title">interior design</h3>
+            <svg width="80" height="8" viewBox="0 0 80 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <rect y="3" width="75" height="2" fill="#C89469" />
+              <ellipse cx="76" cy="4" rx="4" ry="4" fill="#DFD3C5" />
+            </svg>
+            <p class="slider-box__text">We strive hard to create original and creative spaces that are a true
+              expression of our clients’ wishes.</p>
+          </div>
 
-            <div class="slider-box">
-              <img src="./image/Rectangle14.jpg" alt="image">
-              <h3 class="slider-box__title">interior design</h3>
-              <svg width="80" height="8" viewBox="0 0 80 8" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <rect y="3" width="75" height="2" fill="#C89469" />
-                <ellipse cx="76" cy="4" rx="4" ry="4" fill="#DFD3C5" />
-              </svg>
-              <p class="slider-box__text">We strive hard to create original and creative spaces that are a true
-                expression of our clients’ wishes.</p>
-            </div>
-
-            <div class="slider-box">
-              <img src="./image/Rectangle15.jpg" alt="image">
-              <h3 class="slider-box__title">interior design</h3>
-              <svg width="80" height="8" viewBox="0 0 80 8" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <rect y="3" width="75" height="2" fill="#C89469" />
-                <ellipse cx="76" cy="4" rx="4" ry="4" fill="#DFD3C5" />
-              </svg>
-              <p class="slider-box__text">Find all residential furniture styles with U.S.K for various environments for
-                villas, town houses, & apartments that suits all the client needs.</p>
-            </div>
-
+          <div class="slider-box">
+            <img src="./image/Rectangle15.jpg" alt="image">
+            <h3 class="slider-box__title">interior design</h3>
+            <svg width="80" height="8" viewBox="0 0 80 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <rect y="3" width="75" height="2" fill="#C89469" />
+              <ellipse cx="76" cy="4" rx="4" ry="4" fill="#DFD3C5" />
+            </svg>
+            <p class="slider-box__text">Find all residential furniture styles with U.S.K for various environments for
+              villas, town houses, & apartments that suits all the client needs.</p>
           </div>
 
         </div>
 
-        <div class="button-box">
-          <button class="services-button services-button-prev"> &#60;</button>
-          <button class="services-button services-button-next"> &#62;</button>
-        </div>
       </div>
     </section>
 
@@ -215,17 +209,18 @@
       <div class="container portfolio-container">
 
         <h2 class="portfolio__title">portfolio</h2>
-        <div class="portfolio__slider">
-          <div class="slider-line">
+        <div class="owl-carousel">
+          <div class="portfolio-carousel">
             <img src="./image/Rectangle18.png" alt="image">
-            <img src="./image/Rectangle19.png" alt="image">
-            <img src="./image/Rectangle20.png" alt="image">
           </div>
 
-        </div>
-        <div class="button-box">
-          <button class="portfolio-button portfolio-button-prev"> &#60;</button>
-          <button class="portfolio-button portfolio-button-next"> &#62;</button>
+          <div class="portfolio-carousel">
+            <img src="./image/Rectangle19.png" alt="image">
+          </div>
+
+          <div class="portfolio-carousel">
+            <img src="./image/Rectangle20.png" alt="image">
+          </div>
         </div>
 
       </div>
@@ -283,7 +278,9 @@
     </div>
   </footer>
 
-  <script src="js/script.js"></script>
+  <script src="./node_modules/jquery/dist/jquery.js"></script>
+  <script src="./src/js/owl.carousel.js"></script>
+  <script src="./js/carousel.js"></script>
 
 </body>
 
